@@ -10,7 +10,7 @@ fc = 2590e6; % (Hz) Center frequency (connect VCO Vtune to +5)
 CPI = 0.1;
 maxSpeed_m_s = 25; % (m/s) maximum speed to display
 minSpeed_m_s = 0; % (m/s) minimum speed to display
-RecordingNo2Process = 1; 
+RecordingNo2Process = 1;  % change to select file to run (1 = '5m1.wav', 2 = '10m1.wav', 3 = '20m1.wav', 4 = '30m1.wav')
 
 PFA = 10^-5;    % Probability of False Alarm
 RefWindow = 16; % Reference Window or CFAR Window
