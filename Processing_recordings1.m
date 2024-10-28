@@ -12,12 +12,15 @@ maxSpeed_m_s = 25; % (m/s) maximum speed to display
 minSpeed_m_s = 0; % (m/s) minimum speed to display
 RecordingNo2Process = 1; 
 
-PFA = 10^-6;    % Probability of False Alarm
+PFA = 10^-5;    % Probability of False Alarm
 RefWindow = 16; % Reference Window or CFAR Window
 guard = 2; %guard cells
 Training = RefWindow/2 -guard/2;  %training cells
 
-wavFile_CW_All = {'30m5.wav'};
+wavFile_CW_All = {'5m1.wav';
+                 '10m1.wav';
+                 '20m1.wav;
+                 '30m1.wav'};
 
 
 wavFile = wavFile_CW_All{RecordingNo2Process};
