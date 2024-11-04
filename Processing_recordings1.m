@@ -19,7 +19,7 @@ Training = RefWindow/2 -guard/2;  %training cells
 
 wavFile_CW_All = {'5m1.wav';
                  '10m1.wav';
-                 '20m1.wav;
+                 '20m1.wav';
                  '30m1.wav'};
 
 
